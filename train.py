@@ -28,7 +28,7 @@ def load_training_data(file_path):
 dataset = load_training_data('training_data.json').train_test_split(test_size=0.1)
 
 # 2. Initialize Model and Tokenizer
-model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"  # Choose appropriate model size
+model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Choose appropriate model size
 # Other Models: https://huggingface.co/collections/deepseek-ai/deepseek-r1-678e1e131c0169c0bc89728d
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token

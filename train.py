@@ -1,5 +1,5 @@
 # First install required packages:
-# pip install torch transformers datasets accelerate peft
+# pip install datasets
 
 import json
 from transformers import (

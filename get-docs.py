@@ -20,4 +20,4 @@ if file_name.endswith(".tar.gz"):
     with tarfile.open(file_name, "r:gz") as tar:
         tar.extractall(path=os.getcwd())  # Mevcut çalışma dizinine çıkartır
 
-print("Dosya indirildi ve çıkarıldı.")
+print("Documentation downloaded.")
